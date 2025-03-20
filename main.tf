@@ -67,3 +67,4 @@ module "aks_cluster_region2" {
   service_cidr         = "10.3.0.0/16"  # Choose a service CIDR that doesn't overlap with subnets
   dns_service_ip    = "10.3.0.10"  # Must be within 10.3.0.0/16 but outside pod range
 } 
+
